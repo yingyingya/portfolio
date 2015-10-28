@@ -1,0 +1,55 @@
+body{
+	background-color: #E0F5FF;
+	font-family: comic sans ms;
+}
+nav{
+	background-color: #C2EBFF;
+}
+
+h1{
+	font-size:6em;
+	position: relative;
+
+	left:400px;
+	
+}
+article{
+	background-color:#99CCFF;
+	font-size:1em;
+	border: 1px solid #665544;
+	overflow: 200px;
+
+	width:50%;
+	position:absolute;
+	left: 300px;
+}
+h2{
+	background-color: #FFFFFF;
+
+}
+h3{
+	background-color: #FFFFFF;
+}
+h4{
+	background-color: ;
+}
+blockquote{
+	font-size: 2em;
+	position: relative;
+	left:55px;
+}
+aside{
+    float: left;
+}
+ #banner {
+                position: absolute;
+                top: 0px;
+                left: 0px;
+                right: 0px;
+                width: 100%;
+                height: 300px;
+                z-index: -1;
+        }
+    
+  
+
