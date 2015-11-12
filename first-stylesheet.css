@@ -1,55 +1,124 @@
 body{
-	background-color: #E0F5FF;
-	font-family: comic sans ms;
+	background-color: #A3FFED;
+	margin: 100px;
+	
 }
+
+
 nav{
 	background-color: #C2EBFF;
 }
 
 h1{
-	font-size:6em;
+	font-size:5em;
 	position: relative;
-
-	left:400px;
+    font-family: 'Marck Script', cursive;
+	left:100px;
+	color: #ffffff;
 	
 }
+.email{
+	font-size: 1.5em;
+	position: relative;
+	font-family: 'Cantarell', sans-serif;
+	left:1000px;
+	color:#ffffff;
+
+}
+#nav{
+	clear: both;
+    
+	background-color: #79CFCE;
+	height: 38px;
+	font-family: 'Rock Salt', cursive;
+	display: table;
+    width: 100%;
+    padding: 0;
+    margin: 0;
+}
+
+ul li{
+	display: table-cell;
+	height: 36px;
+	width: 14.27%;
+	line-height: 36px;
+	text-align: center;
+	border-right: 0.25em solid #55CFCE;
+	white-space: nowrap;
+}
+
+ul li:last-child {
+	border: none;
+}
+
+li a{
+	color: #FFFFFF;
+    text-decoration: none;
+
+}
+.pictures{
+	float: left;
+	display: inline;
+	display: block;
+	width: 20%;
+	text-align: auto;
+	height: 600px;
+	
+	
+
+}
+.picturesright{
+	float: right;
+	display: inline;
+    display: block;
+    text-align: auto;
+	
+
+}
+
+
 article{
-	background-color:#99CCFF;
+	background-color:#C8FFF7;
 	font-size:1em;
-	border: 1px solid #665544;
-	overflow: 200px;
+	
+	overflow: auto;
 
 	width:50%;
 	position:absolute;
-	left: 300px;
+	left: 550px;
+}
+article p{
+	
+	font-size:2em;
+	color: #329487;
+	font-family: 'Ubuntu', sans-serif;
+	padding-top: 5%;
+}
+.couple1{
+	  
+	  display: block;
+      width: 100%;
+      text-align: center;
+      position: relative;
+      
 }
 h2{
-	background-color: #FFFFFF;
+	background-color: #79CFCE;
+	font-size: 2.5em;
+	font-family: 'Rock Salt', cursive;
+	color:#ffffff;
+	
+
 
 }
-h3{
-	background-color: #FFFFFF;
+
+
+footer{
+   clear: both;
+   color: #fffff;
+   height: 20px;
+   padding: 150px 0px 0px 500px;
 }
-h4{
-	background-color: ;
-}
-blockquote{
-	font-size: 2em;
-	position: relative;
-	left:55px;
-}
-aside{
-    float: left;
-}
- #banner {
-                position: absolute;
-                top: 0px;
-                left: 0px;
-                right: 0px;
-                width: 100%;
-                height: 300px;
-                z-index: -1;
-        }
-    
-  
+
+         
 
